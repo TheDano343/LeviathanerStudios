@@ -1,0 +1,12 @@
+.elemento{
+    padding: 1.5em;
+    border-radius: .5em;
+    background-color: var(--bg-light);
+    opacity: 0;
+    transition: 600ms ease;
+    scale: 0;
+}
+
+.elemento.visualizar{
+    scale: 1;
+}
